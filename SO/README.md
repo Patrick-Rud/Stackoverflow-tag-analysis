@@ -12,7 +12,7 @@ Based on the interest of understanding the behaviour of contributors on Stack Ov
 
 Scrapy is applied to extract structured data from the websites. Each item includes the question id, question vote counts, question view counts, question post timestamp, question active timestamp, answer counts, answer vote sum and timestamp of the first answer.
 
-The crawler iterates through all the questions in the scope with *pages* parameters. Finally, there are 6179 rows in [*WordPress*](/data/wordpress_raw.csv) and 243 rows in [Drupal](/data/drupal_raw.csv).
+The crawler iterates through all the questions in the scope with *pages* parameters. Finally, there are 6179 rows in [*WordPress*](./data/wordpress_raw.csv) and 243 rows in [*Drupal*](./data/drupal_raw.csv).
 
 ### B. Feature Engineering
 
@@ -118,7 +118,7 @@ Their heatmaps seem similar. Among the metric pairs, two distinct pairs are sele
 
 <center>Figure 7: Exposure-Activity Scatter</center>
 
-![](img\scatter(ex-act).png)
+![](./img/scatter(ex-act).png)
 
 As exposure amounts, the activity of both tags shows no inclination to grow, most of which are constrained under a certain level. Still, for *WordPress*, the maximum of activity increases. It indicates that large-scale data are more likely to show this correlation.
 
